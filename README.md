@@ -47,4 +47,5 @@ Contributing
 Feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome!
 
 Feel free to adjust the script name (port_scanner.py) and other details based on your project.
-&copy; Evolex Inc. 
+
+&copy;2024 copyright Evolex Inc. 
