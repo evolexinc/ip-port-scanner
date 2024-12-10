@@ -16,24 +16,28 @@ Clone the repository:
 Install dependencies (if any):
 
 bash
-Copy code
-pip install -r requirements.txt
+
+> ```pip install socket```
+
 Run the script:
 
 bash
-Copy code
-```>python3 port_scanner.py --target <IP_ADDRESS> --ports <PORT_RANGE>```
+
+>```python3 port_scanner.py --target <IP_ADDRESS> --ports <PORT_RANGE>```
+
 Usage
 To scan a single IP address for open ports:
 
 bash
-Copy code
+
 >```python port_scanner.py --target 192.168.1.1```
+
 To scan a specific range of ports:
 
 bash
-Copy code
+
 >```python port_scanner.py --target 192.168.1.1 --ports 80-100```
+
 Contributing
 Feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome!
 
