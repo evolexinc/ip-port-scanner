@@ -10,9 +10,8 @@ Customizable: Easily modify parameters like timeouts, port ranges, and scanning 
 Simple Output: Displays clear results showing open, closed, and filtered ports for each target.
 ## Installation
 Clone the repository:
-bash
-Copy code
-```>git clone https://github.com/evolexinc/ip-port-scanner.git```
+
+>```git clone https://github.com/evolexinc/ip-port-scanner.git```<br>
 Install dependencies (if any):
 
 bash
