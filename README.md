@@ -11,34 +11,40 @@ Simple Output: Displays clear results showing open, closed, and filtered ports f
 ## Installation
 Clone the repository:
 
->```git clone https://github.com/evolexinc/ip-port-scanner.git```<br/>
+>
+>```
+>$ git clone https://github.com/evolexinc/ip-port-scanner.git
+>```
 
 Install dependencies (if any):
 
-bash
+> ```
+> $ pip install socket
+> ```
 
-> ```pip install socket```
-
-Run the script:
-
-bash
-
->```python3 port_scanner.py --target <IP_ADDRESS> --ports <PORT_RANGE>```
+### Run the script:
+>```
+>$ python3 port_scanner.py --target <IP_ADDRESS> --ports <PORT_RANGE>
+>```
 
 Usage
 To scan a single IP address for open ports:
 
-bash
-
->```python port_scanner.py --target 192.168.1.1```
+>```
+>$ python port_scanner.py --target 192.168.1.1
+>```
 
 To scan a specific range of ports:
 
 bash
 
->```python port_scanner.py --target 192.168.1.1 --ports 80-100```
+>
+>```
+>$ python port_scanner.py --target 192.168.1.1 --ports 80-100
+>```
 
 Contributing
 Feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome!
 
 Feel free to adjust the script name (port_scanner.py) and other details based on your project.
+&copy; Evolex Inc. 
