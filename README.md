@@ -11,7 +11,7 @@ Simple Output: Displays clear results showing open, closed, and filtered ports f
 ## Installation
 Clone the repository:
 
->```git clone https://github.com/evolexinc/ip-port-scanner.git```<br>
+>```git clone https://github.com/evolexinc/ip-port-scanner.git```<br/>
 Install dependencies (if any):
 
 bash
